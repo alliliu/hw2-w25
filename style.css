@@ -41,10 +41,13 @@ div{
     line-height: 2;
 }
 
-.red{
+div.red{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
+    border: 0 solid #FFFFFF; /* override entire div border */
+    
+    /* still set border bottom & left values */
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
 }
@@ -55,6 +58,7 @@ div.blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
+    border: 0 solid #FFFFFF;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
 }
@@ -63,10 +67,11 @@ div.blue h1, .blue h2, .blue p{
     color: #C4C4C4;
 }
 
-div.yellow{
+.yellow{
     background-color: #ff0;
     text-align: right;
     margin-left: 50px;
+    border: 0 solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
     border-left: 5px solid #FFFFFF;
 }
@@ -75,10 +80,11 @@ div.yellow p{
     color: #707070;
 }
 
-div.green{
+.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
+    border: 0 solid #FFFFFF;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
 }
