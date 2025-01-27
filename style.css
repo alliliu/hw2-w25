@@ -1,6 +1,6 @@
 body{
     background-color:#000000;
-    font-family: Arial, Verdana, sans-serif; /* preferred font, fallback, type */
+    font-family: Arial, Verdana; /* preferred font, fallback, type */
     color: #FFFFFF;
     margin: 20px 20px 0 20px; /* top, right, bottom, left */
 }
@@ -51,7 +51,7 @@ div{
 
 /* class borders: https://www.w3schools.com/w3css/w3css_borders.asp */
 
-.blue{
+div.blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
@@ -59,11 +59,11 @@ div{
     border-top: 2px solid #FFFFFF;
 }
 
-.blue h1, .blue h2, .blue p{
+div.blue h1, .blue h2, .blue p{
     color: #C4C4C4;
 }
 
-.yellow{
+div.yellow{
     background-color: #ff0;
     text-align: right;
     margin-left: 50px;
@@ -71,11 +71,11 @@ div{
     border-left: 5px solid #FFFFFF;
 }
 
-.yellow p{
+div.yellow p{
     color: #707070;
 }
 
-.green{
+div.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
